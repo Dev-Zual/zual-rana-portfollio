@@ -7,12 +7,12 @@ const Services = () => {
         Service Provide For My Clients.
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
-        <div class="card bg-base-200 shadow-xl">
+        <div className="card bg-base-200 shadow-xl">
           <figure>
             <img className="w-44 mt-8" src="" alt="" />
           </figure>
-          <div class="card-body">
-            <h2 class="card-title text-3xl uppercase">ui/ux design</h2>
+          <div className="card-body">
+            <h2 className="card-title text-3xl uppercase">ui/ux design</h2>
             <ul className="mt-8 uppercase">
               <li>landing pages</li>
               <li>user flow</li>
@@ -21,12 +21,12 @@ const Services = () => {
             </ul>
           </div>
         </div>
-        <div class="card bg-base-200 shadow-xl">
+        <div className="card bg-base-200 shadow-xl">
           <figure>
             <img className="w-44 mt-8" src="" alt="" />
           </figure>
-          <div class="card-body">
-            <h2 class="card-title text-3xl uppercase">ui/ux design</h2>
+          <div className="card-body">
+            <h2 className="card-title text-3xl uppercase">ui/ux design</h2>
             <ul className="mt-8 uppercase">
               <li>html</li>
               <li>javascript</li>
@@ -35,12 +35,12 @@ const Services = () => {
             </ul>
           </div>
         </div>
-        <div class="card bg-base-200 shadow-xl">
+        <div className="card bg-base-200 shadow-xl">
           <figure>
             <img className="w-44 mt-8" src="" alt="" />
           </figure>
-          <div class="card-body">
-            <h2 class="card-title text-3xl uppercase">illustration</h2>
+          <div className="card-body">
+            <h2 className="card-title text-3xl uppercase">illustration</h2>
             <ul className="mt-8 uppercase">
               <li>Character desing</li>
               <li>icon set</li>

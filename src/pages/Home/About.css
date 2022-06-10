@@ -1,0 +1,58 @@
+.expart-area #about {
+  font-size: 48px;
+  text-align: center;
+  color: #333333;
+}
+#about-color {
+  color: #f088d1;
+}
+progress {
+  border: none;
+  width: 500px;
+  height: 5px;
+  color: black;
+}
+progress::-webkit-progress-value {
+  background: black;
+}
+
+progress::-moz-progress-bar {
+  background: lightcolor;
+}
+.expart-area-left h1 {
+  font-size: 36px;
+  color: #333333;
+  margin-top: 85px;
+}
+.expart-area-left p {
+  margin-right: 8%;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 60px;
+}
+.expart-area-right h3 {
+  padding: 0;
+  margin: 0;
+  margin-top: 26px;
+}
+.expart-area-right #web {
+  margin-left: 313px;
+}
+.expart-area-right #web2 {
+  margin-left: 388px;
+}
+.expart-area-right #web6 {
+  margin-left: 381px;
+}
+.expart-area-right #web3 {
+  margin-left: 257px;
+}
+.expart-area-right #web4 {
+  margin-left: 302px;
+}
+.expart-area-right #web5 {
+  margin-left: 291px;
+}
+.expart-area-right #web7 {
+  margin-left: 384px;
+}

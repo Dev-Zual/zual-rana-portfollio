@@ -1,4 +1,5 @@
 import React from 'react';
+import About from './About';
 import Banner from './Banner';
 
 import ChoseMe from './ChoseMe';
@@ -9,6 +10,7 @@ const Home = () => {
   return (
     <div>
       <Banner />
+      <About />
       <ChoseMe />
       <Counter />
       <Services />
