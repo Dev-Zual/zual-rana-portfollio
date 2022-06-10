@@ -5,7 +5,7 @@ import icon2 from '../../assets/images/illustrators/illustrator-2.png';
 
 const ChoseCard = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-10">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 lg:grid-cols-4 gap-4 mb-10">
       <div class="card bg-base-200 shadow-xl">
         <figure>
           <img className="w-44 mt-8" src={icon3} alt="" />
