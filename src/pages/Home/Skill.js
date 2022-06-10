@@ -6,7 +6,8 @@ const Skill = () => {
       <h1 className="lg:text-3xl sm:text-3xl text-3xl mb-16 text-white">
         My Special Skill Field Here.
       </h1>
-      <div class="expart-area-right half-width">
+      <div className="divider mt-[-47px]"></div>
+      <div className="expart-area-right half-width">
         <h3>
           Web Design <span id="web">90%</span>
         </h3>
