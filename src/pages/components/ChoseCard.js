@@ -5,8 +5,8 @@ import icon2 from '../../assets/images/illustrators/illustrator-2.png';
 
 const ChoseCard = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-10">
-      <div class="card bg-neutral shadow-xl">
+    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-10">
+      <div class="card bg-base-200 shadow-xl">
         <figure>
           <img className="w-44 mt-8" src={icon3} alt="" />
         </figure>
@@ -15,7 +15,7 @@ const ChoseCard = () => {
           <p>Building architectures with modern technology.</p>
         </div>
       </div>
-      <div class="card bg-neutral shadow-xl">
+      <div class="card bg-base-200 shadow-xl">
         <figure>
           <img className="w-44 mt-8" src={icon1} alt="" />
         </figure>
@@ -24,7 +24,7 @@ const ChoseCard = () => {
           <p>Bring the beautifully for your house. Just enjoy!.</p>
         </div>
       </div>
-      <div class="card bg-neutral shadow-xl">
+      <div class="card bg-base-200 shadow-xl">
         <figure>
           <img className="w-44 mt-8" src={icon1} alt="" />
         </figure>
@@ -33,7 +33,7 @@ const ChoseCard = () => {
           <p>Bring nature in your house. Health is important</p>
         </div>
       </div>
-      <div class="card bg-neutral shadow-xl">
+      <div class="card bg-base-200 shadow-xl">
         <figure>
           <img className="w-44 mt-8" src={icon2} alt="" />
         </figure>
