@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import resume from '../../assets/Zual_Rana_Resume.pdf';
 
 const Navbar = () => {
   const menuItem = (
@@ -8,16 +9,16 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/">Services</Link>
+        <Link to="/services">Services</Link>
       </li>
       <li>
-        <Link to="/">Pages</Link>
+        <Link to="/projects">Projects</Link>
       </li>
       <li>
-        <Link to="/">Blog</Link>
+        <Link to="/blog">Blog</Link>
       </li>
       <li>
-        <Link to="/">Contact</Link>
+        <Link to="/contact">Contact</Link>
       </li>
     </>
   );
@@ -55,7 +56,9 @@ const Navbar = () => {
           <ul class="menu menu-horizontal p-0">{menuItem}</ul>
         </div>
         <div class="navbar-end">
-          <a class="btn">Get started</a>
+          <a href={resume} target="_blank" class="btn">
+            Download Resume
+          </a>
         </div>
       </div>
     </div>
