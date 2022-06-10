@@ -50,13 +50,13 @@ const Navbar = () => {
               {menuItem}
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl">Zual Rana</a>
+          <a class="btn btn-ghost normal-case text-white text-xl">Zual Rana</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">{menuItem}</ul>
         </div>
-        <div class="navbar-end">
-          <a href={resume} target="_blank" class="btn">
+        <div class="navbar-end ">
+          <a href={resume} target="_blank" class="btn text-white">
             Download Resume
           </a>
         </div>

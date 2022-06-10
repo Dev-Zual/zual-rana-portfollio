@@ -10,10 +10,10 @@ const Banner = () => {
             <img className="lg:w-[70%] mr-8 sm:w[30%] " src={myimg} alt="" />
           </div>
           <div className="w-full">
-            <h1 class="text-5xl font-bold">Hello! I'm</h1>
-            <h1 class="text-8xl  font-bold mt-4">Zual Rana</h1>
+            <h1 class="text-5xl text-primary font-bold">Hello! I'm</h1>
+            <h1 class="text-8xl text-white font-bold mt-4">Zual Rana</h1>
             <p class="py-6">Jr. Full Stack Web Developer</p>
-            <a href={resume} class="btn btn-primary">
+            <a href={resume} class="btn btn-primary text-white">
               Download Resume
             </a>
           </div>
