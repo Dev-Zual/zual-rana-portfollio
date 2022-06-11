@@ -3,6 +3,7 @@ import About from './About';
 import Banner from './Banner';
 
 import ChoseMe from './ChoseMe';
+import Contact from './Contact';
 import Counter from './Counter';
 import Services from './Services';
 
@@ -14,6 +15,7 @@ const Home = () => {
       <ChoseMe />
       <Counter />
       <Services />
+      <Contact />
     </div>
   );
 };
