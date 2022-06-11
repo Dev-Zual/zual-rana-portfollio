@@ -54,7 +54,7 @@ const Contact = () => {
           <span class="label-text">Your Message</span>
         </label>
         <textarea
-          class="textarea textarea-bordered w-72 h-24"
+          class="textarea textarea-bordered lg:w-72 h-24"
           name="message"
           placeholder="Message"
         ></textarea>

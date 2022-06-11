@@ -7,11 +7,17 @@ const Skill = () => {
         My Special Skill Field Here.
       </h1>
       <div className="divider mt-[-47px]"></div>
-      <div className="expart-area-right half-width">
+      <div>
+        <div className="expart-area-right half-width"></div>
         <h3>
           Web Design <span id="web">90%</span>
         </h3>
-        <progress id="file" value="90" max="100">
+        <progress
+          className="lg:w-4/5 sm:w-11/12"
+          id="file"
+          value="90"
+          max="100"
+        >
           {' '}
           90%{' '}
         </progress>
@@ -19,7 +25,12 @@ const Skill = () => {
         <h3>
           HTML 5 <span id="web2">95%</span>
         </h3>
-        <progress id="file" value="95" max="100">
+        <progress
+          className="lg:w-4/5 md:w-11/12"
+          id="file"
+          value="95"
+          max="100"
+        >
           {' '}
           95%{' '}
         </progress>
@@ -27,7 +38,12 @@ const Skill = () => {
         <h3>
           CSS 3<span id="web6">90%</span>
         </h3>
-        <progress id="file" value="90" max="100">
+        <progress
+          className="lg:w-4/5 sm:w-11/12"
+          id="file"
+          value="90"
+          max="100"
+        >
           {' '}
           90%{' '}
         </progress>
@@ -35,7 +51,12 @@ const Skill = () => {
         <h3>
           BOOTSTRAP 5<span id="web3">80%</span>
         </h3>
-        <progress id="file" value="80" max="100">
+        <progress
+          className="lg:w-4/5 sm:w-11/12"
+          id="file"
+          value="80"
+          max="100"
+        >
           {' '}
           80%{' '}
         </progress>
@@ -43,7 +64,12 @@ const Skill = () => {
         <h3>
           REACT<span id="web4">95%</span>
         </h3>
-        <progress id="file" value="95" max="100">
+        <progress
+          className="lg:w-4/5 sm:w-11/12"
+          id="file"
+          value="95"
+          max="100"
+        >
           {' '}
           95%{' '}
         </progress>
@@ -51,7 +77,12 @@ const Skill = () => {
         <h3>
           JAVASCRIPT<span id="web5">85%</span>
         </h3>
-        <progress id="file" value="85" max="100">
+        <progress
+          className="lg:w-4/5 sm:w-11/12"
+          id="file"
+          value="85"
+          max="100"
+        >
           {' '}
           85%{' '}
         </progress>
@@ -59,7 +90,12 @@ const Skill = () => {
         <h3>
           UI/UX<span id="web7">90%</span>
         </h3>
-        <progress id="file" value="90" max="100">
+        <progress
+          className="lg:w-4/5 sm:w-11/12"
+          id="file"
+          value="90"
+          max="100"
+        >
           {' '}
           90%{' '}
         </progress>
